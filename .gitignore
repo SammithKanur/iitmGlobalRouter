@@ -1,0 +1,13 @@
+# Build output
+route
+
+# Router output and logs
+gr_out
+*.route
+scripts/
+
+# Stray files
+-critical_p
+
+# Local command notes
+cmds.txt
