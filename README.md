@@ -86,7 +86,7 @@ The number of x-interval buckets (`-num_xdim_parts`) sets the parallelism of bat
 | `-net <file>` | Net (`.net`) file |
 | `-gr_out <file>` | Output global-route file |
 | `-chip_name <name>` | Design name (used for logging) |
-| `-new_fmt` | Parse the ISPD25 `.cap` format |
+| `-new_fmt` | Parse the ISPD25 `.cap` and `.net` format |
 | `-bit_pmodel` | Use binary indexed trees for congestion-cost updates and queries |
 | `-batch_part` | Parallel batch generation using x-interval buckets |
 | `-num_xdim_parts <k>` | Number of x-interval buckets for parallel batch generation (default 4) |
