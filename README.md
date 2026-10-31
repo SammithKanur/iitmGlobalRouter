@@ -63,7 +63,7 @@ BENCH=~/ISPD2025_benchmarks
         -net $BENCH/visible/ariane/ariane.net \
         -new_fmt -chip_name ariane_visible -gr_out ariane_visible.route \
         -mst_cpu_threads 10 -bit_pmodel -batch_part -num_xdim_parts 4 \
-        -wrt_mrg -rseg_fmt
+        -wrt_mrg -rseg_fmt -oprd_ppatch
 ```
 
 For the other designs, replace `visible/ariane/ariane` with the corresponding `visible/<design>/<design>` or `blind/<design>/<design>` paths and set `-chip_name` accordingly.
@@ -75,7 +75,7 @@ The number of x-interval buckets (`-num_xdim_parts`) sets the parallelism of bat
         -net $BENCH/visible/mempool_cluster/mempool_cluster.net \
         -new_fmt -chip_name mempool_cluster_visible -gr_out mempool_cluster_visible.route \
         -mst_cpu_threads 10 -bit_pmodel -batch_part -num_xdim_parts 15 \
-        -wrt_mrg -rseg_fmt
+        -wrt_mrg -rseg_fmt -oprd_ppatch
 ```
 
 ### Options
